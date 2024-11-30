@@ -56,7 +56,7 @@ void edit_user(){
 
 void display_users(){
     for (int i=0; i < allUsers->size(); i++){
-        cout << allUsers[i] << "\n";
+        cout << allUsers[i].username << allUsers[i].email << allUsers[i].name << "\n";
     }
 }
 
