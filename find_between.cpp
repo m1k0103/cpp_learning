@@ -7,4 +7,5 @@ int main(){
     unsigned last = str.find_last_of("!");
     string strBetween = str.substr(first, last-first);
     cout << strBetween;
+    return 0;
 }
